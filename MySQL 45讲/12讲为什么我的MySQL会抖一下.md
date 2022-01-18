@@ -30,3 +30,29 @@
 ### 设置IOPS磁盘能力
 `innodb_io_capacity`此参数告诉InnoDB磁盘能力.建议设置为磁盘IOPS;
 如果**遇到InnoDB的[TPS](00tips.md#TPS)很低,同时磁盘IO也很低,可能是因为此参数设置过小了**
+
+### 脏页计算方式
+- InnoDB的刷盘速度就是要参考这两个因素：**脏页比例,redo log写盘速度**.
+- `innodb_max_dirty_pages_pct`是脏页比例上限,默认为75%.即超过这个比例就会强制刷新
+    - 设M为当前脏页比例
+    - 当前脏页数(0-100)为F1(M)
+    - F1(M):M>=innodb_max_dirty_pages_pct?100:100\*M/innodb_max_dirty_pages_pct
+- InnoDB每次写入日志都有一个序好
+    - 设N:当前序号和checkpoint对应的序号差
+    - F2(N)为一个0-100的值,N越大结果越大(计算过程复杂省略)
+- **算得的F1(M)和F2(N)两个值，取其中较大的值记为R，之后引擎就可以按 照innodb_io_capacity定义的能力乘以R%来控制刷脏页的速度**
+
+### 图示
+![](http://img.jaken.top/image/202201181056351.png)
+
+### 总结
+- 平时要多关注脏页比例，不要 让它经常接近75%
+- 脏页比例:Innodb_buffer_pool_pages_dirty/Innodb_buffer_pool_pages_total
+- 计算sql:
+```sql
+# 脏页数量
+select VARIABLE_VALUE into @a from global_satus where VARIABLE_NAME = 'Innodb_bufer_pool_pages_dirty'; 
+# 总页数量
+select VARIABLE_VALUE into @b from global_satus where VARIABLE_NAME = 'Innodb_bufer_pool_pages_total'; 
+select @a/@b;
+```
