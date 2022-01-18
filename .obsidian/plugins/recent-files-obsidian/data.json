@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "12讲为什么我的MySQL会抖一下",
+      "path": "MySQL 45讲/12讲为什么我的MySQL会抖一下.md"
+    },
+    {
+      "basename": "00tips",
+      "path": "MySQL 45讲/00tips.md"
+    },
+    {
       "basename": "FastJson-过滤序列化字段",
       "path": "Java/FastJson/FastJson-过滤序列化字段.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "在普通应用中引入Slf4j打印日志",
       "path": "Java/Log/在普通应用中引入Slf4j打印日志.md"
-    },
-    {
-      "basename": "JOOQ-SpringBoot-HelloWorld",
-      "path": "Java/DataBase/JOOQ-SpringBoot-HelloWorld.md"
-    },
-    {
-      "basename": "为啥阿里巴巴规定要在 @Transactional 指定 rollbackFor？",
-      "path": "Java/DataBase/为啥阿里巴巴规定要在 @Transactional 指定 rollbackFor？.md"
     }
   ],
   "omittedPaths": [],
