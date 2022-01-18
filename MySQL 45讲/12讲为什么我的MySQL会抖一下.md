@@ -42,17 +42,28 @@
     - F2(N)为一个0-100的值,N越大结果越大(计算过程复杂省略)
 - **算得的F1(M)和F2(N)两个值，取其中较大的值记为R，之后引擎就可以按 照innodb_io_capacity定义的能力乘以R%来控制刷脏页的速度**
 
-### 图示
+#### 图示
 ![](http://img.jaken.top/image/202201181056351.png)
 
 ### 总结
 - 平时要多关注脏页比例，不要 让它经常接近75%
 - 脏页比例:Innodb_buffer_pool_pages_dirty/Innodb_buffer_pool_pages_total
 - 计算sql:
+MySQL 5.7.6以前版本
 ```sql
 # 脏页数量
-select VARIABLE_VALUE into @a from global_satus where VARIABLE_NAME = 'Innodb_bufer_pool_pages_dirty'; 
+select VARIABLE_VALUE into @a from global_satus where VARIABLE_NAME = 'Innodb_buffer_pool_pages_dirty'; 
 # 总页数量
-select VARIABLE_VALUE into @b from global_satus where VARIABLE_NAME = 'Innodb_bufer_pool_pages_total'; 
+select VARIABLE_VALUE into @b from global_satus where VARIABLE_NAME = 'Innodb_buffer_pool_pages_total'; 
 select @a/@b;
+```
+MySQL 5.7.6以后版本
+``` sql
+# 总脏页数  
+select VARIABLE_VALUE into @a from global_status where VARIABLE_NAME = 'Innodb_buffer_pool_pages_dirty';  
+# 总页数  
+select VARIABLE_VALUE into @b from global_status where VARIABLE_NAME = 'Innodb_buffer_pool_pages_total';  
+select @a/@b;
+# 可以使用show指令
+show global status like 'Innodb_buffer_pool_pages_dirty';
 ```
