@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "e1ab91860fe4c640",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e2b552a84fae01b",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5916550a4e38f35",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb2404776d7c39ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abf6dcc75dbc9118",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee41b44fc334d291",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "undo log",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5e05357eb314a14e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "2da518fd7a8e72b4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "63eae364d8e6e850",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "right": {
+    "id": "fd5eadd99a2fe467",
+    "type": "split",
+    "children": [
+      {
+        "id": "49a752d408b6c292",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d9c526d8074e918",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d10a51e287253b10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7a4eee0756beb9e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332
+  },
+  "active": "7e2b552a84fae01b",
+  "lastOpenFiles": [
+    "MySQL 45讲/12讲为什么我的MySQL会抖一下.md",
+    "conflict-files-obsidian-git.md",
+    "MySQL 45讲/02讲日志系统;一条SQL更新语句是如何执行的.md",
+    "MySQL 45讲/00tips.md",
+    "MySQL 45讲/01讲基础架构：一条 SQL查询语句是如何执行的.md",
+    "数据库/MySQL 45讲/12讲为什么我的MySQL会抖一下.md",
+    "数据库/MySQL 45讲/11将怎么给字符串字段加索引.md",
+    "数据库/MySQL 45讲/10MySQL为什么有时候会选错索引.md",
+    "数据库/MySQL 45讲/09讲普通所以和唯一索引应该怎么选择.md",
+    "数据库/MySQL 45讲/08讲事务到底是隔离还是不隔离的.md"
+  ]
+}

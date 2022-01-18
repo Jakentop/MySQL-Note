@@ -1,0 +1,18 @@
+{
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "showLineNumber": true,
+  "trashOption": "local",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assert",
+  "newFileLocation": "current",
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": true,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "useTab": false
+}

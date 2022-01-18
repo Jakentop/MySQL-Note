@@ -1,0 +1,206 @@
+{
+  "recentFiles": [
+    {
+      "basename": "FastJson-过滤序列化字段",
+      "path": "Java/FastJson/FastJson-过滤序列化字段.md"
+    },
+    {
+      "basename": "FastJson-反序列化多泛型类与java中的Type类型",
+      "path": "Java/FastJson/FastJson-反序列化多泛型类与java中的Type类型.md"
+    },
+    {
+      "basename": "Jackson-JsonFormat注解失效",
+      "path": "Java/Jackson-JsonFormat注解失效/Jackson-JsonFormat注解失效.md"
+    },
+    {
+      "basename": "Jackson序列化枚举类的方法",
+      "path": "Java/Jackson-JsonFormat注解失效/Jackson序列化枚举类的方法.md"
+    },
+    {
+      "basename": "Java-getSavedProperty和getProperty 区别",
+      "path": "Java/Java/Java-getSavedProperty和getProperty 区别.md"
+    },
+    {
+      "basename": "MyBatis-解析不到声明的变量",
+      "path": "Java/MyBatis/MyBatis-解析不到声明的变量.md"
+    },
+    {
+      "basename": "12讲为什么我的MySQL会抖一下",
+      "path": "数据库/MySQL 45讲/12讲为什么我的MySQL会抖一下.md"
+    },
+    {
+      "basename": "11将怎么给字符串字段加索引",
+      "path": "数据库/MySQL 45讲/11将怎么给字符串字段加索引.md"
+    },
+    {
+      "basename": "10MySQL为什么有时候会选错索引",
+      "path": "数据库/MySQL 45讲/10MySQL为什么有时候会选错索引.md"
+    },
+    {
+      "basename": "09讲普通所以和唯一索引应该怎么选择",
+      "path": "数据库/MySQL 45讲/09讲普通所以和唯一索引应该怎么选择.md"
+    },
+    {
+      "basename": "08讲事务到底是隔离还是不隔离的",
+      "path": "数据库/MySQL 45讲/08讲事务到底是隔离还是不隔离的.md"
+    },
+    {
+      "basename": "07讲行锁功过 减少行锁对性能的影响",
+      "path": "数据库/MySQL 45讲/07讲行锁功过 减少行锁对性能的影响.md"
+    },
+    {
+      "basename": "06讲全局锁和表锁",
+      "path": "数据库/MySQL 45讲/06讲全局锁和表锁.md"
+    },
+    {
+      "basename": "05将深入浅出索引 下",
+      "path": "数据库/MySQL 45讲/05将深入浅出索引 下.md"
+    },
+    {
+      "basename": "04讲深入浅出索引 上",
+      "path": "数据库/MySQL 45讲/04讲深入浅出索引 上.md"
+    },
+    {
+      "basename": "03讲事务隔离 为什么你改了我还看不见",
+      "path": "数据库/MySQL 45讲/03讲事务隔离 为什么你改了我还看不见.md"
+    },
+    {
+      "basename": "02讲日志系统;一条SQL更新语句是如何执行的",
+      "path": "数据库/MySQL 45讲/02讲日志系统;一条SQL更新语句是如何执行的.md"
+    },
+    {
+      "basename": "01讲基础架构：一条 SQL查询语句是如何执行的",
+      "path": "数据库/MySQL 45讲/01讲基础架构：一条 SQL查询语句是如何执行的.md"
+    },
+    {
+      "basename": "00tips",
+      "path": "数据库/MySQL 45讲/00tips.md"
+    },
+    {
+      "basename": "String-构造方法",
+      "path": "JavaSourceCode/基本类型/String/String-构造方法.md"
+    },
+    {
+      "basename": "String-Tips",
+      "path": "JavaSourceCode/基本类型/String/String-Tips.md"
+    },
+    {
+      "basename": "String-工具方法",
+      "path": "JavaSourceCode/基本类型/String/String-工具方法.md"
+    },
+    {
+      "basename": "String-Equals",
+      "path": "JavaSourceCode/基本类型/String/String-Equals.md"
+    },
+    {
+      "basename": "最佳实践",
+      "path": "JavaSourceCode/最佳实践.md"
+    },
+    {
+      "basename": "Integer-toString",
+      "path": "JavaSourceCode/基本类型/Integer/Integer-toString.md"
+    },
+    {
+      "basename": "Integer",
+      "path": "JavaSourceCode/基本类型/Integer/Integer.md"
+    },
+    {
+      "basename": "Integer-getInteger",
+      "path": "JavaSourceCode/基本类型/Integer/Integer-getInteger.md"
+    },
+    {
+      "basename": "StringBuffer",
+      "path": "JavaSourceCode/StringBuffer/StringBuffer.md"
+    },
+    {
+      "basename": "JavaSourceCode",
+      "path": "JavaSourceCode/JavaSourceCode.md"
+    },
+    {
+      "basename": "StringCoding",
+      "path": "JavaSourceCode/StringCoding/StringCoding.md"
+    },
+    {
+      "basename": "StringBuilder",
+      "path": "JavaSourceCode/StringBuilder/StringBuilder.md"
+    },
+    {
+      "basename": "copyOf",
+      "path": "JavaSourceCode/Arrays/copyOf.md"
+    },
+    {
+      "basename": "String",
+      "path": "JavaSourceCode/基本类型/String/String.md"
+    },
+    {
+      "basename": "基本类型",
+      "path": "JavaSourceCode/基本类型/基本类型.md"
+    },
+    {
+      "basename": "Character-valueOf",
+      "path": "JavaSourceCode/基本类型/Character/Character-valueOf.md"
+    },
+    {
+      "basename": "Character",
+      "path": "JavaSourceCode/基本类型/Character/Character.md"
+    },
+    {
+      "basename": "Number",
+      "path": "JavaSourceCode/基本类型/Number/Number.md"
+    },
+    {
+      "basename": "Redis  缓存穿透、击穿、雪崩、预热、更新、降级",
+      "path": "Redis/Redis  缓存穿透、击穿、雪崩、预热、更新、降级.md"
+    },
+    {
+      "basename": "Long",
+      "path": "JavaSourceCode/基本类型/Long/Long.md"
+    },
+    {
+      "basename": "Integer-valueOf",
+      "path": "JavaSourceCode/基本类型/Integer/Integer-valueOf.md"
+    },
+    {
+      "basename": "Integer-toUnsignedString0",
+      "path": "JavaSourceCode/基本类型/Integer/Integer-toUnsignedString0.md"
+    },
+    {
+      "basename": "Integer-Tips",
+      "path": "JavaSourceCode/基本类型/Integer/Integer-Tips.md"
+    },
+    {
+      "basename": "Integer-parseInt",
+      "path": "JavaSourceCode/基本类型/Integer/Integer-parseInt.md"
+    },
+    {
+      "basename": "equals&hashCode",
+      "path": "JavaSourceCode/基本类型/Integer/equals&hashCode.md"
+    },
+    {
+      "basename": "Nginx URL重写 rewrite配置及信息详解",
+      "path": "Nginx/Nginx URL重写 rewrite配置及信息详解.md"
+    },
+    {
+      "basename": "Maven跳过打包测试",
+      "path": "Java/Maven/Maven跳过打包测试.md"
+    },
+    {
+      "basename": "CI_CD模式设计",
+      "path": "设计模式/CI_CD模式设计.md"
+    },
+    {
+      "basename": "在普通应用中引入Slf4j打印日志",
+      "path": "Java/Log/在普通应用中引入Slf4j打印日志.md"
+    },
+    {
+      "basename": "JOOQ-SpringBoot-HelloWorld",
+      "path": "Java/DataBase/JOOQ-SpringBoot-HelloWorld.md"
+    },
+    {
+      "basename": "为啥阿里巴巴规定要在 @Transactional 指定 rollbackFor？",
+      "path": "Java/DataBase/为啥阿里巴巴规定要在 @Transactional 指定 rollbackFor？.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}
