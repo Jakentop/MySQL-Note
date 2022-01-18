@@ -45,7 +45,7 @@
 #### 图示
 ![](http://img.jaken.top/image/202201181056351.png)
 
-### 总结
+#### 总结
 - 平时要多关注脏页比例，不要 让它经常接近75%
 - 脏页比例:Innodb_buffer_pool_pages_dirty/Innodb_buffer_pool_pages_total
 - 计算sql:
@@ -67,3 +67,10 @@ select @a/@b;
 # 可以使用show指令
 show global status like 'Innodb_buffer_pool_pages_dirty';
 ```
+
+### 邻近刷新策略`innodb_flush_neighbors`
+- 当刷新某页时会对相邻页数个页做刷新
+- 刷新数量由`innodb_flush_neighbors`来决定
+- 对于机械硬盘很有意义(因为随机IO太小)
+- 但是对于SSD来说,邻近刷新毫无意义
+- MySQL 8.0后该参数默认值为0

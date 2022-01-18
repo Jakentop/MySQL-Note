@@ -41,3 +41,9 @@
 
 ## TPS
 指的是事务数/秒 Transactions Per Second;用来衡量数据库的处理能力
+
+## ACID
+- A 原子性(atomicity)
+- C 一致性(consistency)
+- I 隔离性(isolation)
+- D 持久性(durability)
